@@ -131,14 +131,24 @@ body {
   .apresentacao {
      flex-direction: column-reverse;
      align-items: center;
+     padding: 10% 15% 6% 15%;
+     gap: 40px;
  }
 
  .minha_imagem {
-    width: 50%;
+    width: 100%;
  }
 
  .conteudo {
   width: 100%;
   align-items: center;
  }
+ 
+ .apresetacao__conteudo__links__navegacao {
+    width: 70%;
+ }
+
+ .rodape {
+    padding: 2%;
+  }
 }
