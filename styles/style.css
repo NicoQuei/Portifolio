@@ -23,13 +23,18 @@ body {
   color: var(--cor-secundaria);
 }
 
+body,html {
+  height: 100%;
+}
+
 .cabecalho {
   padding: 2% 0% 0% 15%;
+  
 }
 
 .cabecalho__menu {
   display: flex;
-  gap:80px;
+  gap: 50px;
 }
 
 .cabecalho__menu__link {
@@ -45,7 +50,8 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 5% 15% 6% 15%;
-  gap:80px;
+  gap: 80px;
+  
 }
 
 .conteudo {
@@ -107,15 +113,15 @@ body {
 }
 .minha_imagem {
   width: 37%;
-  border-radius: 12px;
+  border-radius: 5%;
   border: 2px solid var(--cor-tercearia);
 }
 
 .apresentacao__sobre {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   padding: 7% 15% 11% 15%;
+  gap: 80px;
 }
 
 .rodape {
@@ -150,5 +156,19 @@ body {
 
  .rodape {
     padding: 2%;
+  }
+
+  .cabecalho {
+    padding: 10% 10% 3% 10%;
+  }
+
+  .cabecalho__menu {
+    justify-content: center;
+  }
+
+  .apresentacao__sobre {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 40px;
   }
 }
