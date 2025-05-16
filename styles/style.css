@@ -21,6 +21,7 @@ body {
   box-sizing: border-box;
   background-color: var(--cor-primaria);
   color: var(--cor-secundaria);
+  
 }
 
 body,html {
@@ -58,7 +59,7 @@ body,html {
   width: 60%;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 40px;
 }
 
 .titulo {
@@ -137,16 +138,24 @@ body,html {
   .apresentacao {
      flex-direction: column-reverse;
      align-items: center;
-     padding: 10% 15% 6% 15%;
+     padding: 10% 5% 6% 5%;
      gap: 40px;
  }
 
+ .titulo {
+  font-size: 1.9rem;
+ }
+
+ .sub__titulo {
+  font-size: 1.2rem;
+ }
+
  .minha_imagem {
-    width: 100%;
+    width: 80%;
  }
 
  .conteudo {
-  width: 100%;
+  width: auto;
   align-items: center;
  }
  
@@ -165,10 +174,15 @@ body,html {
   .cabecalho__menu {
     justify-content: center;
   }
+  
+  .cabecalho__menu__link {
+    font-size: 1.8rem;
+  }
 
   .apresentacao__sobre {
     flex-direction: column-reverse;
     align-items: center;
     gap: 40px;
+    padding: 7% 5% 11% 5%;
   }
 }
