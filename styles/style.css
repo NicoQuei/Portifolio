@@ -3,9 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap');
 
 :root {
-  --cor-primaria: #222831;
+  --cor-primaria: #000000;
   --cor-secundaria: #EEEEEE;
-  --cor-tercearia: #00ADB5;
+  --cor-tercearia: #4B0FA3
+;
 
   --fonte-primaria: 'Krona One', sans-serif;
   --fonte-secundaria: "Montserrat", sans-serif;
@@ -17,15 +18,15 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   box-sizing: border-box;
   background-color: var(--cor-primaria);
   color: var(--cor-secundaria);
   
-}
-
-body,html {
-  height: 100%;
 }
 
 .cabecalho {
@@ -117,6 +118,11 @@ body,html {
   border-radius: 5%;
   border: 2px solid var(--cor-tercearia);
 }
+.minha_imagem_home {
+  width: 37%;
+  border-radius: 5%;
+  border: 2px solid var(--cor-tercearia);
+}
 
 .apresentacao__sobre {
   display: flex;
@@ -126,7 +132,7 @@ body,html {
 }
 
 .rodape {
-  color: black;
+  color: var(--cor-secundaria);
   background-color: var(--cor-tercearia);
   text-align: center;
   padding: 22px;
