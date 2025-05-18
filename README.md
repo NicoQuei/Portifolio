@@ -13,4 +13,4 @@ Bem vindo ao meu projeto de portfólio.
 
 ### Nícolas Queiroga
 
-### Linkedin: https://www.linkedin.com/school/aluracursos/
+### Linkedin: https://www.linkedin.com/in/n%C3%ADcolas-queiroga-644482304/
