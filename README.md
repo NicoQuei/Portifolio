@@ -1,7 +1,7 @@
 # Portfólio 
 Bem vindo ao meu projeto de portfólio.
 
-![image](https://cdn.discordapp.com/attachments/1314737339540574360/1373101840698179674/3EB4E27C-B043-4A90-8EA6-96F6F3FDFEAF.png?ex=6829303d&is=6827debd&hm=5b39f619149df662e336f23b6ce68f568471fb53c4f21ec12d3ccdf3e55b0490&)
+![image](https://cdn.discordapp.com/attachments/833733459494043748/1403412750767489054/576A3FE6-2AE1-419A-95A5-867C6E7A0E99.png?ex=68977579&is=689623f9&hm=359c4d4ca26716146703e8c2030aeb0d663cbf196d60f09f2dd7205dee75c4bf&)
 
 ## Ferramentas utilizadas:
 
